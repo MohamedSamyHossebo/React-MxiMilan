@@ -1,14 +1,13 @@
 import "./Header.css";
 import reactImg from "../../assets/react-core-concepts.png";
 
-function Header() {
+export default function Header() {
   const reactDescriptions = ["Fundamentals", "Crucial", "Core"];
-
+  const description = reactDescriptions[getRandomInt(2)];
   function getRandomInt(max) {
     return Math.floor(Math.random() * (max + 1));
   }
 
-  const description = reactDescriptions[getRandomInt(2)];
 
   return (
     <header>
@@ -21,4 +20,3 @@ function Header() {
     </header>
   );
 }
-export default Header;

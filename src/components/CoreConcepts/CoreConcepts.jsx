@@ -1,4 +1,6 @@
-function CoreConcepts(props) {
+import "./CoreConcepts.css";
+
+export default function CoreConcepts(props) {
   return (
     <>
       <li>
@@ -9,4 +11,3 @@ function CoreConcepts(props) {
     </>
   );
 }
-export default CoreConcepts;
