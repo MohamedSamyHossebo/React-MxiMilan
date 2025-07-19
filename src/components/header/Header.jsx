@@ -8,7 +8,6 @@ export default function Header() {
     return Math.floor(Math.random() * (max + 1));
   }
 
-
   return (
     <header>
       <img src={reactImg} alt="Stylized atom" />
